@@ -1,27 +1,7 @@
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> Nick
 body{
     margin: 0;
 }
-
-<<<<<<< HEAD
-ul{
-    list-style: none; /*gets rid of bullets*/
-    display: flex;
-    background-color: black;
-    margin: 0;
-    padding: 10px 0px;
-}
-
-li a{
-    text-decoration: none; /*gets rid of underline*/
-    color: white;
-    padding: 10px 30px; /*first value: top/bottom, second value: left/right*/
-=======
 
 
 ul{
@@ -39,19 +19,10 @@ li a{
     color: white;
     font-family: "Literata", serif;
     transition: color 1s;
->>>>>>> Nick
 }
 
 li a:hover{
     background-color: darkslategrey;
-<<<<<<< HEAD
-}
-
-li a:active{
-    background-color: white;
-    color: black;
-}
-=======
     color:gold;
 }
 
@@ -72,8 +43,4 @@ li a:active{
     }
 }
 
-
-
-
     
->>>>>>> Nick
