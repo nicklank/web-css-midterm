@@ -17,7 +17,6 @@ li a{
     text-decoration: none; /* get rid of underline*/
     padding: 10px 30px;
     color: white;
-    font-family: "Literata", serif;
     transition: color 1s;
 }
 
@@ -44,3 +43,52 @@ li a:active{
 }
 
     
+.grid {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 80vh 80vh 80vh 80vh 45px;
+    grid-template-areas:
+        "welcome welcome"
+        "schedule schedule"
+        "about content"
+        "faq faq"
+        "footer footer";
+}
+
+.welcome {
+    grid-area: welcome;
+    background-color: #1d0f14;
+    color: #c3ab77;
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 60pt;
+    text-align: center;
+    padding-top: 25vh;
+}
+
+.schedule {
+    grid-area: schedule;
+    background-color: lightblue;
+}
+
+.about {
+    grid-area: about;
+    background-color: lightgreen;
+}
+
+.content {
+    grid-area: content;
+    background-color: lightpink;
+}
+
+.faq {
+    grid-area: faq;
+    background-color: lightgray;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+}
