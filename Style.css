@@ -1,15 +1,8 @@
 
-
-
 body{
     margin: 0;
 }
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 ul{
     list-style: none;   /* get rid of bullet */
     display:flex;
@@ -22,7 +15,6 @@ li a{
     text-decoration: none; /* get rid of underline*/
     padding: 10px 30px;
     color: white;
-    font-family: "Literata", serif;
     transition: color 1s;
 }
 
@@ -46,9 +38,6 @@ li a:active{
     }
 }
 
-<<<<<<< Updated upstream
-
-=======
    
 
 
@@ -76,7 +65,29 @@ li a:active{
     text-align: center;
     padding-top: 40vh;
 }
->>>>>>> Stashed changes
 
+.schedule {
+    grid-area: schedule;
+    background-color: lightblue;
+}
 
-    
+.about {
+    grid-area: about;
+    background-color: lightgreen;
+}
+
+.content {
+    grid-area: content;
+    background-color: lightpink;
+}
+
+.faq {
+    grid-area: faq;
+    background-color: lightgray;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+}
