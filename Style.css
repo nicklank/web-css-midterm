@@ -1,0 +1,93 @@
+
+body{
+    margin: 0;
+}
+
+ul{
+    list-style: none;   /* get rid of bullet */
+    display:flex;
+    background-color: black;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+li a{
+    text-decoration: none; /* get rid of underline*/
+    padding: 10px 30px;
+    color: white;
+    transition: color 1s;
+}
+
+li a:hover{
+    background-color: darkslategrey;
+    color:gold;
+}
+
+li a:active{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 800px){
+   ul{
+        flex-direction: column;
+    }
+    li{
+        width: 100vs;
+        padding: 10px 30px;
+    }
+}
+
+   
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 96vh 85vh 85vh 85vh 45px;
+    grid-template-areas:
+        "welcome welcome"
+        "schedule schedule"
+        "about content"
+        "faq faq"
+        "footer footer";
+}
+
+.welcome {
+    grid-area: welcome;
+    background-color: #1d0f14;
+    color: #c3ab77;
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 60pt;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.schedule {
+    grid-area: schedule;
+    background-color: lightblue;
+}
+
+.about {
+    grid-area: about;
+    background-color: lightgreen;
+}
+
+.content {
+    grid-area: content;
+    background-color: lightpink;
+}
+
+.faq {
+    grid-area: faq;
+    background-color: lightgray;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+}
