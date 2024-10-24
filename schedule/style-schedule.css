@@ -37,3 +37,34 @@ li a:active{
         padding: 10px 30px;
     }
 }
+
+.welcome {
+    grid-area: welcome;
+    background-color: #1d0f14;
+    color: #c3ab77;
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 60pt;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 60pt;
+}
+
+h2, h3, h4, h5 {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: "Quattrocento Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
