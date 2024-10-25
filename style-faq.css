@@ -1,0 +1,29 @@
+
+
+body{
+    color: #FFF2F2;
+    background-color: #1D0F14;
+    
+}
+
+
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60pt;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "Averia Serif Libre";
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+p {
+    font-family: "Quattrocento Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
