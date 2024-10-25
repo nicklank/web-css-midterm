@@ -25,6 +25,7 @@ li a:hover{
 li a:active{
     background-color: white;
     color: black;
+
 }
 
 @media screen and (max-width: 800px){
