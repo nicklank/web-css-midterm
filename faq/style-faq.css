@@ -38,8 +38,8 @@ li a:active{
     }
 }
 
-body {
-    /*grid-area: welcome;*/
+/*body {
+    /*grid-area: welcome;
     background-color: #1d0f14;
     color: #c3ab77;
     font-family: "DM Serif Display", serif;
@@ -64,6 +64,71 @@ h2, h3, h4, h5 {
 }
 
 p {
+    font-family: "Quattrocento Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}*/ 
+/*
+.grid{
+    grid-area: grid;
+    font-family: "Averia Serif Libre, serif";
+}
+body{
+    color: #FFF2F2;
+    background-color: #1D0F14;
+    
+}
+
+
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60pt;
+}
+
+h2,h3,h4{
+    font-family: "Averia Serif Libre";
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+p {
+    font-family: "Quattrocento Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}*/
+.FAQ {
+    grid-area: FAQ;
+    /*background-color: #1D0F14;*/
+    font-family: "Averia Serif Libre, serif";
+
+}
+
+body{
+    color: #FFF2F2;
+    background-color: #1D0F14;
+    
+}
+
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60pt;
+}
+
+h2,h3,h4{
+    font-family: "Averia Serif Libre";
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+ p {
     font-family: "Quattrocento Sans", serif;
     font-weight: 400;
     font-style: normal;
