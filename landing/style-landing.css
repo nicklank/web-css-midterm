@@ -20,7 +20,7 @@ li a{
 
 li a:hover{
     background-color: darkslategrey;
-    color:gold;
+    color:#C3AB77;
 }
 
 li a:active{
@@ -38,52 +38,132 @@ li a:active{
     }
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 96vh 85vh 85vh 85vh 45px;
-    grid-template-areas:
-        "welcome welcome"
-        "schedule schedule"
-        "about content"
-        "faq faq"
-        "footer footer";
-}
-
-.welcome {
-    grid-area: welcome;
-    background-color: #1d0f14;
-    color: #c3ab77;
+<<<<<<< Updated upstream
+=======
+/* FONTS */
+h1 {
     font-family: "DM Serif Display", serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 60pt;
-    text-align: center;
-    padding-top: 40vh;
+    font-size: 40pt;
+  }
+
+  h2, h3, h4, h5 {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+  }
+
+  p {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    Color: #FFF2F2;
+    font-size: 14pt;
+  }
+   
+
+
+
+>>>>>>> Stashed changes
+.grid {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 96vh auto 85vh 85vh 45px;
+    grid-template-areas:
+        "schedule1 schedule2"
+        "content content"
+        "about faq"
+        "communityed beforeafter"
+        "footer footer";
 }
 
-.schedule {
-    grid-area: schedule;
-    background-color: lightblue;
+.schedule1 {
+    grid-area: schedule1;
+    background-color: #DCCFBF;
+    text-align: center;
+}
+
+.schedule2 {
+    grid-area: schedule2;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #691221;
+    overflow: hidden; /* Keeps the background layer within bounds */
+}
+
+.background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../.images/snow.gif');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Blurs only the background image */
+    z-index: 0; 
+    opacity: 0.5; /* Optional: Adjust for transparency */
+}
+
+.schedule2wrap {
+    position: relative;
+    z-index: 1; /* Keeps text and button on top */
 }
 
 .about {
     grid-area: about;
-    background-color: lightgreen;
+    background-color: #1D0F14;
 }
 
 .content {
     grid-area: content;
-    background-color: lightpink;
+    background-color: #be6363;
 }
 
 .faq {
     grid-area: faq;
-    background-color: lightgray;
+    background-color: #DCCFBF;
+    text-align: center;
+}
+
+
+
+.communityed {
+background-color: #FFF2F2;
+}
+
+.beforeafter {
+background-color: #DCCFBF;
+
 }
 
 .footer {
     grid-area: footer;
-    background-color: black;
+    background-color: #1D0F14;
     color: white;
+    height: 8vh;
 }
+
+.button {
+    padding: 10px 20px;
+    background-color: #DCCFBF; 
+    color: #1D0F14; 
+    border: none; /* No border */
+    border-radius: 0; /* No rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+  }
+  
+  .button:hover {
+    background-color: #C3AB77;
+    color: #FFF2F2;
+  }
+
+
+  
