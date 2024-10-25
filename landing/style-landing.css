@@ -38,8 +38,6 @@ li a:active{
     }
 }
 
-<<<<<<< Updated upstream
-=======
 /* FONTS */
 h1 {
     font-family: "DM Serif Display", serif;
@@ -66,7 +64,6 @@ h1 {
 
 
 
->>>>>>> Stashed changes
 .grid {
     display: grid;
     grid-template-columns: 50vw 50vw;
