@@ -1,9 +1,4 @@
-.about {
-    grid-area: about;
-    /*background-color: #1D0F14;*/
-    font-family: "Averia Serif Libre, serif";
 
-}
 
 body{
     color: #FFF2F2;
@@ -11,11 +6,7 @@ body{
     
 }
 
-.Contact {
-    grid-area: about;
-    /*background-color: #1D0F14;*/
-    
-}
+
 
 h1 {
   font-family: "DM Serif Display", serif;
@@ -35,4 +26,23 @@ h2,h3,h4,h5,h6{
     font-family: "Quattrocento Sans", serif;
     font-weight: 400;
     font-style: normal;
+}
+.values {
+    grid-area: about;
+    /*background-color: #1D0F14;*/
+    font-family: "Averia Serif Libre, serif";
+    background-color: #FFF2F2;
+    color: #1D0F14;
+    block-size: 350pt ;
+
+}
+.mission {
+    grid-area: about;
+    /*background-color: #1D0F14;*/
+    font-family: "Averia Serif Libre, serif";
+    background-color: #C3AB77;
+    color: #1D0F14;
+    block-size: 70pt ;
+    font-size: x-large;
+
 }
