@@ -1,6 +1,7 @@
-
 body{
     margin: 0;
+    color: #FFF2F2;
+    background-color: #1D0F14;
 }
 
 ul{
@@ -40,7 +41,7 @@ li a:active{
 
 .welcome {
     grid-area: welcome;
-    background-color: #1d0f14;
+    background-color: #FFF2F2;
     color: #c3ab77;
     font-family: "DM Serif Display", serif;
     font-weight: 600;
@@ -54,13 +55,14 @@ h1 {
     font-family: "DM Serif Display", serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 60pt;
+    font-size: 40pt;
 }
 
 h2, h3, h4, h5 {
     font-family: "Averia Serif Libre", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
+    font-size: 25pt;
 }
 
 p {
