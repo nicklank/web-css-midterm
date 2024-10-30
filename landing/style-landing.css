@@ -71,7 +71,7 @@ h1 {
     grid-template-areas:
         "schedule1 schedule2"
         "content content"
-        "about faq"
+        "guildshop faq"
         "communityed beforeafter"
         "footer footer";
 }
@@ -80,13 +80,14 @@ h1 {
     grid-area: schedule1;
     background-color: #DCCFBF;
     text-align: center;
+    padding: 5vw;
 }
 
 .schedule2 {
     grid-area: schedule2;
     position: relative;
     text-align: center;
-    padding: 20px;
+    padding: 5vw;
     background-color: #691221;
     overflow: hidden; /* Keeps the background layer within bounds */
 }
@@ -110,31 +111,50 @@ h1 {
     z-index: 1; /* Keeps text and button on top */
 }
 
-.about {
-    grid-area: about;
-    background-color: #1D0F14;
+.whitetext {
+    color:#FFF2F2
+}
+
+.guildshop {
+    grid-area: guildshop;
+    background-color: #691221;
+    text-align: center;
+    padding: 5vw;
 }
 
 .content {
     grid-area: content;
-    background-color: #be6363;
+    background-color: #1D0F14;
+    padding: 5vw;
+}
+
+.rosintext {
+    color:#C3AB77
+}
+
+.blacktext {
+    color: #1D0F14;
 }
 
 .faq {
     grid-area: faq;
-    background-color: #DCCFBF;
+    background-color: #FFF2F2;
     text-align: center;
+    padding: 5vw;
 }
 
 
 
 .communityed {
 background-color: #FFF2F2;
+text-align: center;
+padding: 5vw;
 }
 
 .beforeafter {
 background-color: #DCCFBF;
-
+text-align: center;
+padding: 5vw;
 }
 
 .footer {
@@ -144,9 +164,9 @@ background-color: #DCCFBF;
     height: 8vh;
 }
 
-.button {
+.buttonlight {
     padding: 10px 20px;
-    background-color: #DCCFBF; 
+    background-color: #FFF2F2; 
     color: #1D0F14; 
     border: none; /* No border */
     border-radius: 0; /* No rounded corners */
@@ -156,11 +176,31 @@ background-color: #DCCFBF;
     font-style: normal;
     font-size: 14pt;
   }
+
+  .buttondark {
+    padding: 10px 20px;
+    background-color: #691221; 
+    color: #FFF2F2; 
+    border: none; /* No border */
+    border-radius: 0; /* No rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+  }
   
-  .button:hover {
+  .buttonlight:hover {
     background-color: #C3AB77;
     color: #FFF2F2;
   }
 
+  .buttondark:hover {
+    background-color: #C3AB77;
+    color: #FFF2F2;
+  }
 
+  .conductpic {
+    width: 100vw;
+  }
   
