@@ -80,8 +80,10 @@ h1 {
     background-color: #DCCFBF;
     text-align: center;
     padding: 5vw;
-
-
+    background-image: url("../.images/tix.png");
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    background-position-y: 30vh;
 }
 
 .schedule2 {
@@ -208,4 +210,20 @@ padding: 5vw;
   .rockspic {
     grid-area: rockspic;
 }
-  
+
+@media only screen and (max-width: 400px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 96vh auto auto 90vh 90vh 45px;
+        grid-template-areas:
+            "schedule1"
+            "schedule2"
+            "content"
+            "rockspic"
+            "guildshop" 
+            "faq"
+            "communityed" 
+            "beforeafter"
+            "footer"
+    }
