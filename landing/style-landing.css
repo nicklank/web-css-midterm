@@ -60,20 +60,19 @@ h1 {
     Color: #FFF2F2;
     font-size: 14pt;
   }
-   
-
 
 
 .grid {
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 96vh auto 85vh 85vh 45px;
+    grid-template-rows: 96vh auto auto 90vh 90vh 45px;
     grid-template-areas:
         "schedule1 schedule2"
         "content content"
+        "rockspic rockspic"
         "guildshop faq"
         "communityed beforeafter"
-        "footer footer";
+        "footer footer"
 }
 
 .schedule1 {
@@ -81,6 +80,8 @@ h1 {
     background-color: #DCCFBF;
     text-align: center;
     padding: 5vw;
+
+
 }
 
 .schedule2 {
@@ -200,7 +201,11 @@ padding: 5vw;
     color: #FFF2F2;
   }
 
-  .conductpic {
+  #conductpic {
     width: 100vw;
   }
+
+  .rockspic {
+    grid-area: rockspic;
+}
   
