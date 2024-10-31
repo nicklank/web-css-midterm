@@ -81,9 +81,10 @@ h1 {
     text-align: center;
     padding: 5vw;
     background-image: url("../.images/tix.png");
-    background-size: 40vw;
+    background-size: 50vh;
     background-repeat: no-repeat;
     background-position-y: 30vh;
+    background-position: center;
 }
 
 .schedule2 {
@@ -145,7 +146,6 @@ h1 {
     text-align: center;
     padding: 5vw;
 }
-
 
 
 .communityed {
@@ -215,7 +215,7 @@ padding: 5vw;
     .grid {
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: auto auto auto auto auto auto auto auto;
+        grid-template-rows: 90vh 90vh auto auto 90vh 90vh 90vh 90vh;
         grid-template-areas:
             "schedule1"
             "schedule2"
@@ -223,8 +223,8 @@ padding: 5vw;
             "rockspic"
             "guildshop" 
             "faq"
-            "communityed" 
             "beforeafter"
+            "communityed" 
             "footer"
     }
 }
