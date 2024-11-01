@@ -39,34 +39,111 @@ li a:active{
     }
 }
 
-.welcome {
-    grid-area: welcome;
-    background-color: #FFF2F2;
-    color: #c3ab77;
-    font-family: "DM Serif Display", serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 60pt;
-    text-align: center;
-    padding-top: 40vh;
-}
-
 h1 {
     font-family: "DM Serif Display", serif;
     font-weight: 600;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 0px;
     font-style: italic;
-    font-size: 40pt;
+    font-size: 80pt;
 }
 
-h2, h3, h4, h5 {
+h2 {
     font-family: "Averia Serif Libre", serif;
     font-weight: 400;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-style: normal;
     font-size: 25pt;
+}
+
+h3, h4, h5 {
+    font-family: "Quattrocento Sans", serif;
+    font-weight: 400;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-style: normal;
+    font-size: 16pt;
 }
 
 p {
     font-family: "Quattrocento Sans", serif;
     font-weight: 400;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-style: normal;
 }
+
+/* Events */
+.event-container {
+    max-width: 48%;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.event-box {
+    background-color: #FFF2F2;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.event-title {
+    font-family: "Averia Serif Libre", serif;
+    font-size: 20pt;
+    color: #691221;
+    margin-bottom: 10px;
+}
+
+.event-date {
+    font-family: "Quattrocento Sans", serif;
+    font-size: 12pt;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.event-description {
+    font-family: "Quattrocento Sans", serif;
+    font-size: 12pt;
+    color: #444;
+}
+
+.footer img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+/* 
+1D0F14 - dark brown
+691221 - red
+C3AB77 - light brown
+DCCFBF - tan
+FFF2F2 - pink
+*/
