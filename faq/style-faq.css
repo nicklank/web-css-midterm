@@ -1,9 +1,90 @@
 
+
 body{
-    margin: 0;
+    color:  #C3AB77;
+    background-color: #691221;
+    
 }
 
-ul{
+
+.header {
+  color: #691221;
+  background-color: #DCCFBF;
+  text-align: center;
+  padding: 20px;
+  font-family: "DM Serif Display", serif;
+}
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60pt;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "Averia Serif Libre";
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+p {
+    font-family: "Quattrocento Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.collapsible {
+    background-color:  #DCCFBF;
+
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #691221;
+  }
+  .ticket {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #691221;
+  }
+  .before {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #691221;
+  }
+  .event {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #691221;
+  }
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  ul{
     list-style: none;   /* get rid of bullet */
     display:flex;
     background-color: black;
@@ -27,109 +108,16 @@ li a:active{
     background-color: white;
     color: black;
 }
-
-@media screen and (max-width: 800px){
-   ul{
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  @media screen and (max-width: 400px){
+    ul{
         flex-direction: column;
     }
     li{
         width: 100vs;
         padding: 10px 30px;
     }
-}
-
-/*body {
-    /*grid-area: welcome;
-    background-color: #1d0f14;
-    color: #c3ab77;
-    font-family: "DM Serif Display", serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 60pt;
-    text-align: center;
-    padding-top: 40vh;
-}
-
-h1 {
-    font-family: "DM Serif Display", serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 60pt;
-}
-
-h2, h3, h4, h5 {
-    font-family: "Averia Serif Libre", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-p {
-    font-family: "Quattrocento Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-}*/ 
-/*
-.grid{
-    grid-area: grid;
-    font-family: "Averia Serif Libre, serif";
-}
-body{
-    color: #FFF2F2;
-    background-color: #1D0F14;
-    
-}
-
-
-
-h1 {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60pt;
-}
-
-h2,h3,h4{
-    font-family: "Averia Serif Libre";
-    font-weight: 400;
-    font-style: normal;
-    font-size: x-large;
-}
-
-p {
-    font-family: "Quattrocento Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-}*/
-.FAQ {
-    grid-area: FAQ;
-    /*background-color: #1D0F14;*/
-    font-family: "Averia Serif Libre, serif";
-
-}
-
-body{
-    color: #FFF2F2;
-    background-color: #1D0F14;
-    
-}
-
-
-h1 {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60pt;
-}
-
-h2,h3,h4{
-    font-family: "Averia Serif Libre";
-    font-weight: 400;
-    font-style: normal;
-    font-size: x-large;
-}
-
- p {
-    font-family: "Quattrocento Sans", serif;
-    font-weight: 400;
-    font-style: normal;
 }
