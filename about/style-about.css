@@ -1,4 +1,26 @@
-h1 {
+ul{
+    list-style: none;   /* get rid of bullet */
+    display:flex;
+    background-color: black;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+li a{
+    text-decoration: none; /* get rid of underline*/
+    padding: 10px 30px;
+    color: white;
+    transition: color 1s;
+}
+
+li a:hover{
+    background-color: darkslategrey;
+    color:gold;
+}
+
+li a:active{
+    background-color: white;
+    color: black;}h1 {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-style: normal;
@@ -134,7 +156,7 @@ h1 {
     animation-name: fade;
     animation-duration: 1.5s;
  }
- 
+
  
  @keyframes fade {
     from {opacity: .4}
