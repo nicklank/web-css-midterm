@@ -1,81 +1,72 @@
-/*.about {
-    grid-area: about;
-    /*background-color: #1D0F14;
-    font-family: "Averia Serif Libre, serif";
 
-}*/
+.header {
+    color: #691221;
+    background-color: #DCCFBF;
+    text-align: center;
+    padding: 20px;
+    font-family: "DM Serif Display", serif;
+}
 
-body{
+body {
+    color: #C3AB77;
+    background-color: #691221;
+    font-family: "Quattrocento Sans", serif;
     margin: 0;
+    padding: 20px;
 }
 
-ul{
-    list-style: none;   /* get rid of bullet */
-    display:flex;
-    background-color: black;
-    margin: 0;
-    padding: 10px 0px;
-}
-
-li a{
-    text-decoration: none; /* get rid of underline*/
-    padding: 10px 30px;
-    color: white;
-    transition: color 1s;
-}
-
-li a:hover{
-    background-color: darkslategrey;
-    color:gold;
-}
-
-li a:active{
+.container {
+    max-width: 800px;
+    margin: auto;
     background-color: white;
-    color: black;
-}
-
-@media screen and (max-width: 800px){
-   ul{
-        flex-direction: column;
-    }
-    li{
-        width: 100vs;
-        padding: 10px 30px;
-    }
-}
-
-body{
-    color: #FFF2F2;
-    background-color: #1D0F14;
-    
-}
-
-.Contact {
-    grid-area: Contact;
-    /*background-color: #1D0F14;*/
-    
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 h1 {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60pt;
+    font-family: "DM Serif Display", serif;
+    font-size: 60pt;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-h2,h3,h4,h5,h6{
-    font-family: "Averia Serif Libre";
-    font-weight: 400;
-    font-style: normal;
-    font-size: x-large;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    gap: 20px;
 }
 
- p {
-    font-family: "Quattrocento Sans", serif;
-    font-weight: 400;
-    font-style: normal;
+.contact-info,
+.box-hours,
+.holiday-closures,
+.admin-info,
+.donors-sponsors,
+.admin-address {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-.info{
-    background-color: #691221;
-    
+
+h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+a {
+    color: #691221;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40pt;
+    }
+    .grid {
+        grid-template-columns: 1fr; /* Stack items on small screens */
+    }
 }
