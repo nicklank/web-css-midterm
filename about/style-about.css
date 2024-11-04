@@ -1,31 +1,12 @@
-ul{
-    list-style: none;   /* get rid of bullet */
-    display:flex;
-    background-color: black;
-    margin: 0;
-    padding: 10px 0px;
-}
-
-li a{
-    text-decoration: none; /* get rid of underline*/
-    padding: 10px 30px;
-    color: white;
-    transition: color 1s;
-}
-
-li a:hover{
-    background-color: darkslategrey;
-    color:gold;
-}
-
-li a:active{
-    background-color: white;
-    color: black;}h1 {
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60pt;
-  }
+@media screen and (max-width: 600px){
+    ul{
+         flex-direction: column;
+     }
+     li{
+         width: 100vs;
+         padding: 10px 30px;
+     }
+ }
   body {
     color: #C3AB77;
     background-color: #691221;
@@ -164,7 +145,7 @@ li a:active{
  }
  
  
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 400px) {
     h1 {
         font-size: 40pt;
     }
