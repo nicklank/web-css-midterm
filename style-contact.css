@@ -33,7 +33,7 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
@@ -62,19 +62,11 @@ a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     h1 {
         font-size: 40pt;
     }
     .grid {
-        grid-template-columns: 1fr; /* Stack items on small screens */
-    }
-}
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 40pt;
-    }
-    .grid {
-        grid-template-columns: 1fr; /* Stack items on small screens */
+        grid-template-columns: 1fr; 
     }
 }
