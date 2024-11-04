@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -149,4 +149,83 @@ x
 </div>
 </body>
 <script src ="../faq/style-faq.css"></script>
+</html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="../faq/style-faq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        .content {
+            padding: 18px;
+            background-color: white;
+            display: none; /* Start hidden */
+            transition: max-height 0.2s ease-out;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var coll = document.getElementsByClassName("collapsible");
+            for (var i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../landing/landing.html">Home</a></li>
+            <li><a href="../schedule/schedule.html">Schedule</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../faq/faq.html">FAQ</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        Colorado Symphony Orchestra
+    </div>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p>Here are some frequently asked questions about Colorado Symphony concerts that are intended to help make your visit fun, memorable, and stress-free. If you don’t see the answer to your question here, feel free to contact us at <a href="mailto:tickets@coloradosymphony.org">tickets@coloradosymphony.org</a> or call the Box Office at (303) 623-7876. We might even add your inquiry to this list!</p>
+
+        <button type="button" class="collapsible">Ticketing</button>
+        <div class="content ticket">
+            <h2>Ticketing</h2>
+            <p>Can I exchange or refund my ticket purchase? <br>
+            All sales are final. No refunds. Verify all information (title, date, time, seat selection, etc.) before purchasing tickets. Please Note: All ticket exchange requests must be made at least 24 hours before your scheduled performance. ...</p>
+            <p><strong>How do I access my tickets online?</strong><br> Colorado Symphony tickets are now available ...</p>
+            <p><strong>How much do Colorado Symphony tickets cost?</strong><br> Prices vary based on the concert. The base ticket prices ...</p>
+        </div>
+
+        <button type="button" class="collapsible">Before You Go</button>
+        <div class="content before">
+            <h3>Before You Go</h3>
+            <p>What should I know before I go? Patrons are strongly encouraged to arrive early ...</p>
+            <p><strong>What accessible services do you offer?</strong><br>Your Colorado Symphony is committed to providing ...</p>
+        </div>
+
+        <button type="button" class="collapsible">At the Event</button>
+        <div class="content event">
+            <h4>At the Event</h4>
+            <p>What should I wear to a Colorado Symphony concert? Contrary to what many people think, formal attire ...</p>
+            <p><strong>What if I am late to the concert?</strong><br>For the comfort and enjoyment of our musicians ...</p>
+            <p><strong>Can I bring food or drinks into the concert?</strong><br>You are welcome to bring drinks purchased ...</p>
+        </div>
+    </div>
+</body>
 </html>

@@ -1,5 +1,5 @@
 
-
+/*
 body{
     color:  #C3AB77;
     background-color: #691221;
@@ -47,12 +47,12 @@ p {
     font-size: 15px;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) /
   .active, .collapsible:hover {
     background-color: #ccc;
   }
   
-  /* Style the collapsible content. Note: hidden by default */
+  /* Style the collapsible content. Note: hidden by default /
   .content {
     padding: 0 18px;
     display: none;
@@ -78,14 +78,14 @@ p {
     background-color: #691221;
   }
   .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795'; /* Unicode character for "plus" sign (+) /
     font-size: 13px;
     color: white;
     float: right;
     margin-left: 5px;
   }
   ul{
-    list-style: none;   /* get rid of bullet */
+    list-style: none;   /* get rid of bullet /
     display:flex;
     background-color: black;
     margin: 0;
@@ -93,7 +93,7 @@ p {
 }
 
 li a{
-    text-decoration: none; /* get rid of underline*/
+    text-decoration: none; /* get rid of underline/
     padding: 10px 30px;
     color: white;
     transition: color 1s;
@@ -110,7 +110,7 @@ li a:active{
 }
   
   .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796"; /* Unicode character for "minus" sign (-) /
   }
   @media screen and (max-width: 400px){
     ul{
@@ -120,4 +120,103 @@ li a:active{
         width: 100vs;
         padding: 10px 30px;
     }
+}*/body {
+  color: #C3AB77;
+  background-color: #691221;
+}
+
+.header {
+  color: #691221;
+  background-color: #DCCFBF;
+  text-align: center;
+  padding: 20px;
+  font-family: "DM Serif Display", serif;
+  width: 100%; /* Full width */
+  position: relative; /* Allow absolute positioning if needed */
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto; /* Added top margin for space and centered */
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 60pt;
+  margin-bottom: 20px;
+}
+
+h2, h3, h4 {
+  font-family: "Averia Serif Libre";
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+p {
+  font-family: "Quattrocento Sans", serif;
+  line-height: 1.5;
+}
+
+.collapsible {
+  background-color: #DCCFBF;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 18px;
+  background-color: #f9f9f9;
+  border: 1px solid #DCCFBF;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: none; /* Ensure hidden by default */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  background-color: black;
+  margin: 0;
+  padding: 10px 0;
+}
+
+li a {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  transition: color 1s;
+}
+
+li a:hover {
+  background-color: darkslategrey;
+  color: gold;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      padding: 10px;
+      margin: 20px; /* Adjusted for smaller screens */
+  }
+  h1 {
+      font-size: 40pt;
+  }
 }
