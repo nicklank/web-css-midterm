@@ -1,12 +1,4 @@
-@media screen and (max-width: 600px){
-    ul{
-         flex-direction: column;
-     }
-     li{
-         width: 100vs;
-         padding: 10px 30px;
-     }
- }
+
   body {
     color: #C3AB77;
     background-color: #691221;
@@ -145,10 +137,14 @@
  }
  
  
- @media screen and (max-width: 400px) {
-    h1 {
-        font-size: 40pt;
-    }
+ @media screen and (max-width: 400px){
+    ul{
+         flex-direction: column;
+     }
+     li{
+         width: 100vs;
+         padding: 10px 30px;
+     }
  }
  
  
