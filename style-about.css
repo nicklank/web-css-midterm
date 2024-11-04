@@ -1,125 +1,132 @@
 
-
-body{
+  h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60pt;
+  }
+  body {
     color: #C3AB77;
     background-color: #691221;
-    
+    font-family: "Quattrocento Sans", serif;
+    margin: 0;
+    padding: 0;
 }
 
+.header {
+    color: #691221;
+    background-color: #DCCFBF;
+    text-align: center;
+    padding: 20px;
+    font-family: "DM Serif Display", serif;
+}
 
+.container {
+    padding: 20px;
+}
 
 h1 {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60pt;
+    font-size: 60pt;
+    text-align: center;
 }
 
-h2,h3,h4,h5,h6{
-    font-family: "Averia Serif Libre";
-    font-weight: 400;
-    font-style: normal;
-    font-size: x-large;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
 }
 
- p {
-    font-family: "Quattrocento Sans", serif;
-    font-weight: 400;
-    font-style: normal;
+.grid-item {
+    color:#691221;
+    background-color: #DCCFBF;
+    padding: 20px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 400px; /* Set a minimum height */
 }
-* {box-sizing:border-box}
 
-/* Slideshow container */
+h2, h3, h4, h5 {
+    font-family: "Averia Serif Libre", serif;
+    font-size: xx-large;
+}
+
+.dot-container {
+    text-align: center;
+    margin: 15px 0;
+}
+
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: "Averia Serif Libre", serif;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #DCCFBF;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
-@media screen and (max-width: 400px){
-    ul{
-        flex-direction: column;
-    }
-    li{
-        width: 100vs;
-        padding: 10px 30px;
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40pt;
     }
 }
