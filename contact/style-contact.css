@@ -1,6 +1,6 @@
 
 .header {
-    color: #691221;
+    color: #1D0F14;
     background-color: #DCCFBF;
     text-align: center;
     padding: 20px;
@@ -13,6 +13,7 @@ body {
     font-family: "Quattrocento Sans", serif;
     margin: 0;
     padding: 20px;
+    font-size: larger;
 }
 
 .container {
@@ -23,6 +24,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -48,10 +50,13 @@ h1 {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 h2, h3, h4, h5, h6 {
     margin-top: 0;
+    font-size: 25px;
+
 }
 
 a {
@@ -66,6 +71,7 @@ a:hover {
 .mission{
     font-size: 40pt;
 }
+
 @media screen and (max-width: 400px){
     ul{
          flex-direction: column;

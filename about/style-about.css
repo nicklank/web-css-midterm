@@ -39,10 +39,10 @@
  .grid-item {
     color:#691221;
     background-color: #DCCFBF;
-    padding: 20px; /* Increased padding */
+    padding: 20px; 
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    min-height: 400px; /* Set a minimum height */
+    min-height: 400px; 
  }
  
  
@@ -51,49 +51,6 @@
     font-size: xx-large;
  }
  
- 
- .dot-container {
-    text-align: center;
-    margin: 15px 0;
- }
- 
- 
- .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
- }
- 
- 
- /* .mySlides {
-    display: none;
- } */
- 
- 
- .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 3px;
-    user-select: none;
- }
- 
- 
- .next {
-    right: 0;
- }
- 
- 
- .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
- }
  
  
  .text {
@@ -108,28 +65,25 @@
  }
  
  
- .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #DCCFBF;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
- }
- 
- 
- .active, .dot:hover {
-    background-color: #717171;
- }
- 
- 
- .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
- }
 
+ .foot_img{
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ 
+
+ 
+ 
+
+ .about_img{
+    
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   
+    
+ }
  
  @keyframes fade {
     from {opacity: .4}
@@ -144,6 +98,14 @@
          width: 100vs;
          padding: 10px 30px;
      }
+ }
+ .yumi_img{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
  }
 
  

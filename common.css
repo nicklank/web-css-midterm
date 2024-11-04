@@ -2,7 +2,7 @@ nav{
     max-width: 100%;
 }
 ul{
-    list-style: none;   /* get rid of bullet */
+    list-style: none;   
     display:flex;
     background-color: black;
     margin: 0;
@@ -11,7 +11,7 @@ ul{
 }
 
 li a{
-    text-decoration: none; /* get rid of underline*/
+    text-decoration: none; 
     padding: 10px 30px;
     color: white;
     transition: color 1s;
