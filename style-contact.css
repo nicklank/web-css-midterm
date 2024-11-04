@@ -6,7 +6,7 @@
 }*/
 
 body{
-    color: #FFF2F2;
+    color: #C3AB77;
     background-color: #691221;
     
 }
@@ -39,4 +39,13 @@ h2,h3,h4,h5,h6{
 .info{
     background-color: #691221;
     
+}
+@media screen and (max-width: 400px){
+    ul{
+        flex-direction: column;
+    }
+    li{
+        width: 100vs;
+        padding: 10px 30px;
+    }
 }
