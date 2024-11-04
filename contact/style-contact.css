@@ -64,11 +64,3 @@ a:hover {
 }
 
 
-@media screen and (max-width: 400px) {
-    h1 {
-        font-size: 40pt;
-    }
-    .grid {
-        grid-template-columns: 1fr; /* Stack items on small screens */
-    }
-}
