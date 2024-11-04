@@ -9,13 +9,13 @@ body {
   text-align: center;
   padding: 20px;
   font-family: "DM Serif Display", serif;
-  width: 100%; /* Full width */
-  position: relative; /* Allow absolute positioning if needed */
+  max-width: 100%; 
+  position: relative; 
 }
 
 .container {
   max-width: 800px;
-  margin: 40px auto; /* Added top margin for space and centered */
+  margin: 40px auto; 
   padding: 20px;
   background-color: white;
   border-radius: 10px;
@@ -69,6 +69,13 @@ p {
   display: none; /* Ensure hidden by default */
 }
 
+
+.content {
+    padding: 18px;
+    background-color: white;
+    display: none; 
+    transition: max-height 0.2s ease-out;
+}
 
 @media screen and (max-width: 400px) {
   .container {

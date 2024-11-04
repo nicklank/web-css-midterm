@@ -18,6 +18,7 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
+    margin-top: 40px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -62,5 +63,16 @@ a:hover {
     text-decoration: underline;
 
 }
-
+.mission{
+    font-size: 40pt;
+}
+@media screen and (max-width: 400px){
+    ul{
+         flex-direction: column;
+     }
+     li{
+         width: 100vs;
+         padding: 10px 30px;
+     }
+ }
 

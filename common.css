@@ -1,9 +1,13 @@
+nav{
+    max-width: 100%;
+}
 ul{
     list-style: none;   /* get rid of bullet */
     display:flex;
     background-color: black;
     margin: 0;
     padding: 10px 0px;
+    max-width: 100%;
 }
 
 li a{
@@ -26,12 +30,3 @@ li a:active{
     font-style: normal;
     font-size: 60pt;
   }
-  @media screen and (max-width: 400px){
-    ul{
-         flex-direction: column;
-     }
-     li{
-         width: 100vs;
-         padding: 10px 30px;
-     }
- }
