@@ -34,7 +34,7 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    grid-template-columns: 1fr 1fr; 
     gap: 20px;
 }
 
@@ -73,6 +73,9 @@ a:hover {
      li{
          width: 100vs;
          padding: 10px 30px;
+     }
+     .grid {
+        grid-template-columns: 1fr;
      }
  }
 
