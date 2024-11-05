@@ -1,4 +1,6 @@
-
+nav{
+    font-family: "Averia Serif Libre", serif;
+}
 .header {
     color: #1D0F14;
     background-color: #DCCFBF;
@@ -13,7 +15,7 @@ body {
     background-color: #1D0F14;
     font-family: "Quattrocento Sans", serif;
     margin: 0;
-    padding: 20px;
+    /*padding: 20px;*/
     font-size: larger;
 }
 
