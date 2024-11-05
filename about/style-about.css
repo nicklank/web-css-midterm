@@ -28,7 +28,7 @@ nav{
    
     font-size: 60pt;
     text-align: center;
-    font-style: italic;
+    font-style: italic !important;
  }
  
  
