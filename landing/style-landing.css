@@ -84,7 +84,7 @@ h1 {
     background-color: #DCCFBF;
     text-align: center;
     padding: 5vw;
-    background-image: url("/.images/tix.png");
+    background-image: url("tix.png");
     background-size: 50vh;
     background-repeat: no-repeat;
     background-position-y: 30vh;
@@ -106,7 +106,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/.images/snow.gif');
+    background-image: url('snow.gif');
     background-size: cover;
     background-position: center;
     filter: blur(5px); 
