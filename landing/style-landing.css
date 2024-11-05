@@ -65,14 +65,14 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 96vh auto auto 90vh 90vh 45px;
+    grid-template-rows: 96vh auto auto 90vh 90vh auto;
     grid-template-areas:
         "schedule1 schedule2"
         "content content"
         "rockspic rockspic"
         "guildshop faq"
         "communityed beforeafter"
-        "footer footer"
+        "natureflute natureflute"
 }
 
 .schedule1 {
@@ -160,13 +160,6 @@ text-align: center;
 padding: 5vw;
 }
 
-.footer {
-    grid-area: footer;
-    background-color: #1D0F14;
-    color: white;
-    height: 8vh;
-}
-
 .buttonlight {
     padding: 10px 20px;
     background-color: #FFF2F2; 
@@ -211,11 +204,19 @@ padding: 5vw;
     grid-area: rockspic;
 }
 
+#flutepic {
+    width: 100vw;
+}
+
+.natureflute {
+        grid-area: natureflute;
+}
+
 @media (max-width: 768px) {
     .grid {
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 90vh 90vh auto auto 90vh 90vh 90vh 90vh;
+        grid-template-rows: 90vh 90vh auto 9vh 90vh 90vh 90vh 90vh 9vh;
         grid-template-areas:
             "schedule1"
             "schedule2"
@@ -224,7 +225,8 @@ padding: 5vw;
             "guildshop" 
             "faq"
             "beforeafter"
-            "communityed" 
-            "footer"
+            "communityed"
+            "natureflute" 
+
     }
 }
