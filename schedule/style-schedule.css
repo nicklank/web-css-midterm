@@ -48,6 +48,8 @@ h1 {
     padding-bottom: 0px;
     font-style: italic;
     font-size: 80pt;
+    color: #C3AB77;
+
 }
 
 h2 {
@@ -61,6 +63,7 @@ h2 {
     padding-bottom: 0px;
     font-style: normal;
     font-size: 25pt;
+    color: #DCCFBF
 }
 
 h3, h4, h5 {
@@ -88,9 +91,24 @@ p {
     font-style: normal;
 }
 
+.image_container {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.image_container img{
+    float: right;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+}
+
 /* Events */
 .event-container {
-    max-width: 48%;
+    max-width: 45%;
     margin: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -137,6 +155,7 @@ p {
     position: absolute;
     left: 0;
     width: 100%;
+    padding-top: 10px;
     height: auto;
   }
 
