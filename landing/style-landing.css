@@ -80,7 +80,7 @@ h1 {
     background-color: #DCCFBF;
     text-align: center;
     padding: 5vw;
-    background-image: url("../.images/tix.png");
+    background-image: url("./web-css-midterm/.images/tix.png");
     background-size: 50vh;
     background-repeat: no-repeat;
     background-position-y: 30vh;
@@ -93,7 +93,7 @@ h1 {
     text-align: center;
     padding: 5vw;
     background-color: #691221;
-    overflow: hidden; /* Keeps the background layer within bounds */
+    overflow: hidden; 
 }
 
 .background-blur {
@@ -102,17 +102,17 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../.images/snow.gif');
+    background-image: url('./web-css-midterm/.images/snow.gif');
     background-size: cover;
     background-position: center;
-    filter: blur(5px); /* Blurs only the background image */
+    filter: blur(5px); 
     z-index: 0; 
-    opacity: 0.5; /* Optional: Adjust for transparency */
+    opacity: 0.5;
 }
 
 .schedule2wrap {
     position: relative;
-    z-index: 1; /* Keeps text and button on top */
+    z-index: 1; 
 }
 
 .whitetext {
